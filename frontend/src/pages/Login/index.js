@@ -112,7 +112,7 @@ const Login = () => {
 					>
 						{i18n.t("login.buttons.submit")}
 					</Button>
-					{<Grid container>
+					{/*<Grid container>
 						<Grid item>
 							<Link
 								href="#"
@@ -123,10 +123,10 @@ const Login = () => {
 								{i18n.t("login.buttons.register")}
 							</Link>
 						</Grid>
-					</Grid>}
+					</Grid>*/}
 				</form>
 			</div>
-			<Box mt={8}>1 {<Copyright /> } 2 </Box>
+			<Box mt={8}>{/* <Copyright /> */}</Box>
 		</Container>
 	);
 };
