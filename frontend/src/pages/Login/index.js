@@ -71,7 +71,7 @@ const Login = () => {
 			<CssBaseline />
 			<div className={classes.paper}>
 				<div>
-					<img style={{ margin: "0 auto", height: "80px", width: "100%" }} src={logo} alt="Whats" />
+					<img style={{ margin: "0 auto", height: "80px", width: "100%" }} src={logo} alt="CRM no Bolso" />
 				</div>
 				<Typography component="h1" variant="h5">
 					{i18n.t("login.title")}
@@ -112,7 +112,7 @@ const Login = () => {
 					>
 						{i18n.t("login.buttons.submit")}
 					</Button>
-					{/*<Grid container>
+					{<Grid container>
 						<Grid item>
 							<Link
 								href="#"
@@ -123,10 +123,10 @@ const Login = () => {
 								{i18n.t("login.buttons.register")}
 							</Link>
 						</Grid>
-					</Grid>*/}
+					</Grid>}
 				</form>
 			</div>
-			<Box mt={8}>{/* <Copyright /> */}</Box>
+			<Box mt={8}>{<Copyright /> }</Box>
 		</Container>
 	);
 };
