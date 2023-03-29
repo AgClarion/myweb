@@ -53,6 +53,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "84b97029ce122e708a75677533a89507",
-    "url": "/static/media/zapsimples.84b97029.png"
+    "url": "/static/media/logo-crm.png"
   }
 ]);
