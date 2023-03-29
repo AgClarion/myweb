@@ -224,7 +224,7 @@ const LoggedInLayout = ({ children }) => {
         open={drawerOpen}
       >
         <div className={classes.toolbarIcon}>
-          <img src={logo} style={{ margin: "0 auto", height: "50px", width: "100%" }} alt="logo" />
+          <img src="./assets/logocrm.png" style={{ margin: "0 auto", height: "50px", width: "100%" }} alt="logo" />
           <IconButton onClick={() => setDrawerOpen(!drawerOpen)}>
             <ChevronLeftIcon />
           </IconButton>
@@ -243,7 +243,7 @@ const LoggedInLayout = ({ children }) => {
       <AppBar
         position="absolute"
         className={clsx(classes.appBar, drawerOpen && classes.appBarShift)}
-        color="#da291a"
+        color="primary"
       >
         <Toolbar variant="dense" className={classes.toolbar}>
           <IconButton
